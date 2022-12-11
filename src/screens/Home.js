@@ -11,8 +11,6 @@ export default class Home extends Component {
     const {data} = this.props.route.params;
     const arry = data.close_approach_data;
     const renderItem = ({item}) => {
-      console.log(item, '####');
-
       return (
         <View style={styles.card}>
           <View style={styles.obj}>
